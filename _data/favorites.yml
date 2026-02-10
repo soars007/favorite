@@ -161,7 +161,6 @@
     - { title: "Gemini", url: "https://gemini.google.com/" }
     - { title: "Claude", url: "https://claude.ai/chats" }
     - { title: "Arena", url: "https://lmarena.ai/" }
-    - { title: "GPT-4o", url: "https://gpt4o.so/zh-CN" }
     - { title: "Coze", url: "https://www.coze.com/home" }
     - { title: "Poe", url: "https://poe.com/" }
     - { title: "MetaAI", url: "https://www.meta.ai/" }
