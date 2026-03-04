@@ -35,7 +35,7 @@ def remove_dir(infolder):
 # 当前目录
 cwd = os.getcwd()
 # 用户名
-usr = 'loongfee'
+usr = 'soars007'
 # 获取日期：
 today =datetime.date.today()    #获取今天日期
 # 格式化输出
