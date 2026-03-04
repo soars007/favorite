@@ -12,8 +12,6 @@ pack.py
 run.bat
 publish.py
 upload.py
-public/share/
-public/fonts/
 sitemap.txt
 sitemap.txt.bak
 index.html.bak
