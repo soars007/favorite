@@ -391,7 +391,6 @@
     - { title: "当当", url: "http://www.dangdang.com/" }
     - { title: "聚美", url: "http://bj.jumei.com" }
     - { title: "唯品会", url: "http://www.vip.com" }
-    - { title: "一号店", url: "http://www.yhd.com" }
     - { title: "什么值得买", url: "https://www.smzdm.com/" }
     - { title: "amazon", url: "http://www.amazon.com/" }
 
