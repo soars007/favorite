@@ -5,6 +5,7 @@
       <a class="pjaxlink" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}{{ site.gavatar }}" class="img-ronuded avatar" style="border-width:0px; border-color:#000"></a>
       <br><br><br><br>
       <ul class="nav nav-pills nav-stacked">
+        <li><a class="pjaxlink" href="{{ site.baseurl }}/blog/">博客主页</a></li>
         {% for category in site.categories %}     <!-- 这里是aside1的读书、生活、科研、技术、绘画-->
          <li><a href="#{{ category | first }}" data-toggle="tab">{{ category[0] }}</a></li>
         {% endfor %}  

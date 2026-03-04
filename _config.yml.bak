@@ -26,7 +26,8 @@ author:
 title: 淡朴若水
 description: 土肥龙的博客
 aphorism: 上善若水，水善利万物而不争
-url: http://loongfee.github.io
+url: https://soars007.github.io
+baseurl: "/favorite"
 rss_url: /pages/atom.xml
 
 # gavatar头像及Favicon
