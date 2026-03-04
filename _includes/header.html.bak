@@ -7,14 +7,14 @@
 {% if page.description  %}
   <meta name="description " content="{{ page.description  }}">
 {% endif %}
-<link rel="shortcut icon" href="{{ site.favicon }}" />
+<link rel="shortcut icon" href="{{ site.favicon | relative_url }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/public/css/bootstrap.css">
-<link rel="stylesheet" href="/public/css/font-awesome.css">
-<link rel="stylesheet" href="/public/css/highlight.css">
-<link rel="stylesheet" href="/public/js/prettify/prettify.css">
-<link rel="stylesheet" href="/public/css/base.css">
-<link href="/pages/atom.xml" rel="alternate" title="{{site.title}}" type="application/atom+xml">
+<link rel="stylesheet" href="{{ '/public/css/bootstrap.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/font-awesome.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/highlight.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/js/prettify/prettify.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/public/css/base.css' | relative_url }}">
+<link href="{{ '/pages/atom.xml' | relative_url }}" rel="alternate" title="{{site.title}}" type="application/atom+xml">
 <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
 
 

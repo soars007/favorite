@@ -2,16 +2,16 @@
   <div class="row">
     <div class="col-md-2 col-xs-2 aside1">
       <br>
-      <a class="pjaxlink" href="{{ '/' | relative_url }}"><img src="{{ site.gavatar | relative_url }}" class="img-ronuded avatar" style="border-width:0px; border-color:#000"></a>
+      <a class="pjaxlink" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}{{ site.gavatar }}" class="img-ronuded avatar" style="border-width:0px; border-color:#000"></a>
       <br><br><br><br>
       <ul class="nav nav-pills nav-stacked">
         {% for category in site.categories %}     <!-- 这里是aside1的读书、生活、科研、技术、绘画-->
          <li><a href="#{{ category | first }}" data-toggle="tab">{{ category[0] }}</a></li>
         {% endfor %}  
         <li><a href="#tags" data-toggle="tab">{{ site.locals.tags }}</a></li>  
-        <li><a class="pjaxlink" href="{{ '/favorite/index.html' | relative_url }}">{{ site.locals.favorite }}</a></li>
-        <li><a class="pjaxlink" href="{{ '/pages/archive.html' | relative_url }}">{{ site.locals.archive }}</a></li>
-        <li><a class="pjaxlink" href="{{ '/pages/about.html' | relative_url }}">{{ site.locals.about }}</a></li>  
+        <li><a class="pjaxlink" href="{{ site.baseurl }}/favorite/index.html">{{ site.locals.favorite }}</a></li>
+        <li><a class="pjaxlink" href="{{ site.baseurl }}/pages/archive.html">{{ site.locals.archive }}</a></li>
+        <li><a class="pjaxlink" href="{{ site.baseurl }}/pages/about.html">{{ site.locals.about }}</a></li>  
         <!-- <li><a href="#tags" data-toggle="tab"><i class="fa fa-tags fa-lg"></i></a></li>
         <li><a class="pjaxlink" href="/pages/archive.html"><i class="fa fa-archive fa-lg"></i></a></li>
         <li><a class="pjaxlink" href="/pages/about.html"><i class="fa fa-user fa-lg"></i></a></li>
@@ -20,7 +20,7 @@
       <div class="aside1_bottom">
         <table class="table table-condensed">
           <tr>
-            <td><a href="{{ '/pages/atom.xml' | relative_url }}" target="_blank"><i class="fa fa-rss fa-lg" style="color:#000;"></i></a></td>
+            <td><a href="{{ site.baseurl }}/pages/atom.xml" target="_blank"><i class="fa fa-rss fa-lg" style="color:#000;"></i></a></td>
             <td><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o fa-lg" style="color:#fff;"></i></a></td>
           </tr>
         </table>
@@ -34,7 +34,7 @@
               <div class="list-group">
                 <!--<h2 class="center">{{ category[0] }}</h2>-->     <!--原来aside2上面的大标题-->
                 {% for post in category[1] %}
-                  <a href="{{ post.url | relative_url }}" class="list-group-item">{{post.title}}</a>
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="list-group-item">{{post.title}}</a>
                 {% endfor %}
               </div>
             </div>
@@ -52,7 +52,7 @@
                   </div>
                   <div id="{{ tag[0] }}" class="panel-collapse collapse">
                     {% for post in tag[1] %}
-                      <a  href='{{ post.url | relative_url }}' class="list-group-item">
+                      <a  href='{{ site.baseurl }}{{ post.url }}' class="list-group-item">
                         {{post.title}}
                       </a>
                     {% endfor %}

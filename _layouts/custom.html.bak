@@ -2,7 +2,7 @@
 <html>
 <head>
   {% include header.html %}
-    <link rel="stylesheet" href="/public/css/favorite.css" />
+    <link rel="stylesheet" href="{{ '/public/css/favorite.css' | relative_url }}" />
 </head>
 <body>
   <div class="container">
