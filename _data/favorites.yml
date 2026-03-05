@@ -284,6 +284,7 @@
   links:
     - { title: "Coursera", url: "https://www.coursera.org" }
     - { title: "Udacity", url: "https://cn.udacity.com" }
+    - { title: "MindLuster", url: "https://www.mindluster.com/" }
     - { title: "OpenEdX", url: "https://class.stanford.edu" }
     - { title: "学堂在线", url: "http://www.xuetangx.com" }
     - { title: "中国大学MOOC", url: "http://www.icourse163.org/index.htm" }
@@ -315,6 +316,7 @@
     - { title: "走读派", url: "http://www.zoudupai.com/" }
     - { title: "搬书匠", url: "http://www.banshujiang.cn/" }
     - { title: "RSS", url: "https://rss-source.com/" }
+    - { title: "Welib", url: "https://welib.org/" }
     - { title: "好讀", url: "http://haodoo.net/?M=hd&P=welcome" }
     - { title: "中国哲学", url: "https://ctext.org/zh" }
     - { title: "中华珍宝馆", url: "http://www.ltfc.net/" }
