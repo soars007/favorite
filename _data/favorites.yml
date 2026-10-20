@@ -159,6 +159,7 @@
     - { title: "Grok", url: "https://grok.com/" }
     - { title: "豆包", url: "https://www.doubao.com/chat/" }
     - { title: "DeepSeek", url: "https://chat.deepseek.com/" }
+    - { title: "DeepSeekAPI", url: "https://platform.deepseek.com/api_keys" }
     - { title: "MiniMax", url: "https://agent.minimax.io/" }
     - { title: "Gemini", url: "https://gemini.google.com/" }
     - { title: "Claude", url: "https://claude.ai/chats" }
